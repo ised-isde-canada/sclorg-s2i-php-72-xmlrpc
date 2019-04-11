@@ -6,6 +6,6 @@ USER root
 RUN yum update -y; yum clean all
 
 # Install Apache Web Server
-RUN yum install -y php-xmlrpc; yum clean all
+RUN yum install -y rh-php72-php-xmlrpc; yum clean all
 
 USER 1001
